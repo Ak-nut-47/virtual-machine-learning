@@ -10,3 +10,6 @@ Pushing For the First Time - git clone https://github.com/USERNAME/REPO.git
 git push https://USERNAME@github.com/USERNAME/REPO.git
 
 When prompted for a password, paste your personal access token instead of your GitHub password." 
+Step 6 - To avoid Manually entering credentials , I ran this command - git config --global credential.helper store
+" Will test and input if git is able to reme,ber credentials .Also The token validity is set for one year so by 2026 the token will be expired.
+Step - 7 - Every Change on the readme is being done through nano . ctrl + o , saves thing , give name or make change to filename. ctrl + x exits. Using cat comand to view contents of the file. 
